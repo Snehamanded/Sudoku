@@ -1,1 +1,4 @@
 # Sudoku
+Sudoku is a popular logic-based number-placement puzzle. The game is played on a 9x9 grid, which is further divided into nine 3x3 subgrids. The objective of Sudoku is to fill in the grid with digits from 1 to 9, ensuring that each row, each column, and each of the nine 3x3 subgrids contains all of the digits from 1 to 9 without repetition.
+This Java implementation of Sudoku includes functionalities to represent the Sudoku grid using a 2D array, validate the initial puzzle, solve the puzzle using a backtracking algorithm, and print the solution. The solution process involves recursive exploration of possible number combinations while ensuring that the rules of Sudoku are followed: no duplicate numbers in rows, columns, or subgrids.
+To use this implementation, users can input a Sudoku puzzle represented as a 9x9 grid with empty cells represented by 0s. The program then solves the puzzle and prints the solution to the console.
